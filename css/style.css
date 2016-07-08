@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,700);
+body{
+	background-image: url("../img/weather.png");
+	font-family:'Dosis', sans-serif;
+	color: #143E51;
+	background-repeat: repeat;
+}
+header{
+	font-family: 'Comic Sans MS', sans-serif;
+	text-align: center;
+	padding: 10px;
+}
+
+h1{
+	text-align: center;
+	padding: 10px;
+	color: #FFf109;
+	font-size: 80px;
+	margin: 0;
+}
+h1{
+  -webkit-transition:-webkit-transform .9s; /* Chrome Safari */
+} 
+h1:hover{
+  -webkit-transform:rotate(540deg); 
+}
+
+main{
+	text-align: center;
+	padding: 100px; 
+}
+
+
+footer{
+	height: 50px;
+	padding: 40px; 
+	text-align: center;
+	color: #AAAAAA;
+	font-size: 0.85em;
+	font-style: italic;
+}
+
+#button-container{
+	margin-bottom: 80px;
+}
+
+button{
+	margin-bottom: 150px;
+	background-color: #3498db;
+	width: 25%;
+	border: #fbfbfb solid 4px;
+	cursor: pointer;
+	color: white;
+	font-size: 45px;
+	padding-top: 12px; 
+	padding-bottom: 12px;
+	font-weight: 20;
+	border-radius: 57px;
+    background: linear-gradient(-45deg, #69c811 10%, #89d3b4 100%);
+}
+
+/* l'ensemnle des div dcontenues dans button-container*/
+#box-container div {
+	display: inline-block;
+	width: 90px;
+	height: 50px;
+	background-color: purple;
+}
+
